@@ -1,7 +1,7 @@
 import nptel1 from "../assets/nptel1.jpeg";
 import nptel2 from "../assets/nptel2.jpeg";
 import nptel3 from "../assets/nptel3.jpeg";
-import aiml from "../assets/aiml.jpeg";
+import aiml from "../assets/AIML.jpeg";
 import java from "../assets/java.jpeg";
 
 function Achievement() {
