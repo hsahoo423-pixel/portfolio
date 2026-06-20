@@ -249,3 +249,100 @@ body{
 .skill-card p{
   margin-top:10px;
 }
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px 5%;
+  }
+
+  .logo {
+    font-size: 24px;
+  }
+}
+@media (max-width: 768px) {
+
+  .hero {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 50px 5%;
+    gap: 30px;
+  }
+
+  .hero-left,
+  .hero-right {
+    width: 100%;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+  }
+
+  .hero h2 {
+    font-size: 24px;
+  }
+
+  .description {
+    font-size: 16px;
+    max-width: 100%;
+  }
+
+  .hero-right {
+    justify-content: center;
+  }
+
+  .profile-img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+.skill-card{
+  width:150px;
+}
+.skill-card{
+  width:180px;
+}
+@media (max-width:768px){
+  .skill-card{
+    width:140px;
+  }
+}
+.project-card{
+  max-width:800px;
+  margin:20px auto;
+}
+
+@media (max-width:768px){
+  .project-card{
+    padding:15px;
+  }
+}
+@media (min-width:769px) and (max-width:1024px){
+
+  .hero h1{
+    font-size:55px;
+  }
+
+  .hero h2{
+    font-size:30px;
+  }
+
+  .profile-img{
+    width:230px;
+    height:230px;
+  }
+}
