@@ -15,7 +15,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
-      <Achievement />
+      <Achievment />
       <Footer />
     </>
   );
